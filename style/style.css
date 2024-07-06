@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+}
+.main-section {
+  background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 655px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-div{
+  color: white;
+  width: 729px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.subtitle{
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 23px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+}
+.title{
+color: rgb(255, 255, 255);
+font-size: 45px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0%;
+text-align: center;
+}
+.description{
+color: rgb(255, 255, 255);
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+opacity: 0.7;
+}
+.btn{
+width: 198px;
+height: 47px;
+align-items: center;
+padding: 15px 23px;
+margin: 23px 0px;
+border-radius: 5px;
+background: rgb(82, 195, 3);
+border: none;
+color: rgb(255, 255, 255);
+font-weight: 600;
+}
+.card-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fav-brand{
+color: rgb(16, 16, 16);
+font-size: 17px;
+font-weight: 400;
+line-height: 50px;
+text-align: center;
+opacity: 0.6;
+}
+.card-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 941px;
+  height: 624px;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.sub-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.item-title{
+width: 492px;
+height: 91px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+}
+.image{
+width: 302px;
+height: 201px;
+margin: 11px 0px;
+}
+.item-name{
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 9px 23px;
+  margin: 11px 0px;
+}
+.details{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+opacity: 0.6;
+margin-top: 14px;
+}
+/* About Us Section */
+.about{
+  height: 478px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-img{
+width: 631px;
+height: 478px
+}
+.about-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 631px;
+  height: 478px;
+}
+.about-title{
+height: 91px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 34px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+}
+.about-subtitle{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 17px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+opacity: 0.6;
+line-height: 51px;
+}
+.follow{
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+padding: 18px 7px;
+width: 570px;
+text-align: center;
+opacity: 0.7;
+margin: 18px auto;
+}
