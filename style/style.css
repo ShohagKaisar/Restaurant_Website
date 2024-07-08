@@ -7,10 +7,12 @@
   background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
   background-size: cover;
   background-position: center;
+  max-width: 1220px;
   height: 655px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 .main-div{
   color: white;
@@ -138,13 +140,12 @@ height: 478px
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 631px;
+  width: 585px;
   height: 478px;
 }
 .about-title{
 height: 91px;
 color: rgb(16, 16, 16);
-font-family: Work Sans;
 font-size: 34px;
 font-weight: 700;
 line-height: 45px;
@@ -152,7 +153,6 @@ text-align: center;
 }
 .about-subtitle{
 color: rgb(16, 16, 16);
-font-family: Work Sans;
 font-size: 17px;
 font-weight: 500;
 line-height: 20px;
@@ -171,4 +171,69 @@ margin: 18px auto;
 }
 .icon{
   width: 25px;
+  margin: 10px;
+}
+.foot{
+  background-image: url(../assets/social-bg.png);
+  background-color: rgba(255, 254, 254, 0.868);
+  background-blend-mode: lighten;
+  max-width: 1212px;
+  height: 426px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foot-container{
+  width: 839px;
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.foot-container h3{
+color: rgb(16, 16, 16);
+font-size: 30px;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+margin-top: 120px;
+margin-bottom: 30px;
+}
+.foot-container h6{
+color: rgb(16, 16, 16);
+font-size: 15px;
+font-weight: 500;
+line-height: 15px;
+opacity: 0.6;
+text-align: center;
+}
+.foot-container p{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+opacity: 0.7;
+width: 839px;
+height: 55px;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+text-align: center;
+padding-top: 32px;
+text-align: center;
+margin-top: 30px;
+}
+.foot-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0 120px 0;
+}
+.foot-icon img{
+  width: 35px;
+  height: 35px;
+  margin: 10px;
 }
